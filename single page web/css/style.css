@@ -1,0 +1,562 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(187, 183, 102);
+  align-items: center;
+  color: white;
+  height: 50px;
+  padding: 5px 90px;
+}
+.mainContainerOfHeader1 {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+}
+.mainContainerOfHeader2 button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin: 3px 3px;
+}
+/* main */
+.mainContainer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.658);
+}
+.miniContainerOfMain1_1 {
+  display: flex;
+}
+.mainContainer1 h1 {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.miniContainerOfMain1_1 input {
+  height: 35px;
+  width: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid red;
+}
+.miniContainerOfMain1_1 input::placeholder {
+  font-size: 1rem;
+  position: relative;
+  left: 30px;
+}
+.miniContainerOfMain1_1 button {
+  height: 37px;
+  width: 40px;
+  border: none;
+  background-color: red;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+}
+
+.miniContainerOfMain1_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+}
+.miniContainerOfMain1_2 h3 {
+  font-weight: 200;
+}
+.miniContainerOfMain1_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.miniContainerOfMain1_3 a {
+  color: black;
+}
+
+/* main container 2 */
+.mainContainer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+/* main container 3 */
+
+.mainContainer3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 450px;
+}
+.miniContainerOfMain3_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding: 70px;
+  background-color: rgb(225, 225, 225);
+}
+.miniContainerOfMain3_1 h1 {
+  font-size: 40px;
+}
+.miniContainerOfMain3_1 p {
+  font-size: 25px;
+}
+.miniContainerOfMain3_1 button {
+  font-size: 15px;
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: red;
+}
+.miniContainerOfMain3_2 {
+  background-image: url("https://img.freepik.com/premium-photo/shopping-cart-filled-with-various-snacks_841543-10038.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* main container 4 */
+.miniContainerOfMain4_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+}
+.miniContainerOfMain4_1_1,
+.miniContainerOfMain4_1_2,
+.miniContainerOfMain4_1_3,
+.miniContainerOfMain4_1_4 {
+  text-align: center;
+  margin-top: -100px;
+}
+.miniContainerOfMain4_1 button {
+  height: 110px;
+  font-size: 50px;
+  background-color: white;
+  width: 110px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 5px solid yellow;
+}
+.mainContanier4 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.miniContainerOfMain4_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.miniContainerOfMain4_2 h4 {
+  font-size: 19px;
+  opacity: 0.6;
+}
+.miniContainerOfMain4_2_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniContainerOfMain4_2_1 h1 {
+  padding-right: 34px;
+  font-size: 2.1rem;
+}
+
+
+.miniContainerOfMain4_2_1 h2 {
+  border-bottom: 2px solid rgba(255, 0, 0, .6);
+  width: 370px;
+}
+
+.miniContainerOfMain4_2_1 .leftLine {
+  position: relative;
+  right: 60px;
+}
+
+
+
+/* main container 7 */
+
+.mainContanier7 {
+  background-image: url("https://img.myloview.com/stickers/blurred-background-blur-grocery-supermarket-at-shopping-store-banner-blurry-shelf-product-display-and-customer-people-backdrop-wallpaper-copy-space-for-business-concept-700-197399452.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+  padding: 120px;
+}
+.mainContanier7 h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.mainContanier7 p {
+  font-size: 40px;
+}
+.mainContanier7 button {
+  height: 50px;
+  width: 150px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+/* Main container 8 */
+
+.mainContainer8 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 400px;
+}
+.miniContainerOfMain8_1 h1 {
+  font-size: 50px;
+  padding: 50px;
+}
+.miniContainerOfMain8_1 p {
+  font-size: 20px;
+  padding: 50px;
+}
+.miniContainerOfMain8_1 button {
+  height: 40px;
+  width: 130px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+.miniContainerOfMain8_2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSDbPEwXxzgsE1DCjjTCdooqSIZ0kCjqP_H9A7Ssz1sqHBHTGZHRNsfmDtyi1sMlX3a8&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Product Container */
+.productContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 70px;
+}
+
+.productWrapper {
+  border: 1px solid lightgrey;
+  padding: 25px 25px;
+}
+.productContainer img {
+  height: 170px;
+  width: 170px;
+  mix-blend-mode: color-burn;
+}
+
+.productContainer .productText,
+.price,
+.addToCart {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.productContainer button {
+  padding: 10px 10px;
+  background-color: rgb(255, 140, 0);
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+
+.productContainer i {
+  font-size: 1.8rem;
+}
+
+.productContainer .fa-chevron-left {
+  position: relative;
+  right: 45px;
+  top: 150px;
+}
+
+.productContainer .fa-chevron-right {
+  position: relative;
+  left: 30px;
+  top: 150px;
+}
+
+.productCounting {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.productCounting div {
+  height: 15px;
+  width: 15px;
+  border-radius: 30px;
+  background-color: grey;
+}
+
+.productCounting div:nth-child(2){
+  background-color: orangered;
+}
+/* End Product Container */
+
+
+/* Categories Container */
+.categories{
+  padding-top: 60px;
+}
+
+.categories p {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+
+
+/* main container 6*/
+.mainContainer6 {
+  display: flex;
+  height: 800px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.miniContainerOfMain6_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.miniContainerOfMain6_1 span {
+  color: orangered;
+  font-size: 50px;
+}
+.miniContainerOfMain6_1 p {
+  font-size: 20px;
+}
+.miniContainerOfMain6_2_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.miniContainerOfMain6_2_1 div {
+  background-color: azure;
+  height: 200px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.miniContainerOfMain6_2_1 div h1 {
+  font-size: 25px;
+  margin: 0 0 20px 50px;
+}
+.miniContainerOfMain6_2_1 div p {
+  font-size: 15px;
+  margin: 0 0 20px 50px;
+}
+.miniContainerOfMain6_2_1 div button {
+  height: 30px;
+  margin: 0 0 20px 50px;
+  border-radius: 20px;
+  background-color: white;
+  color: orangered;
+  border: none;
+  width: 90px;
+}
+.miniContainerOfMain6_2_1_1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSELeNyAtVjs0024obW477ZdGdUBgPFUfvrUxwS_jD8R8f_wfb-DzS-NMzAB-0ctHaGj0&usqp=CAU");
+  background-size: cover;
+  color: white;
+}
+.miniContainerOfMain6_2_1_2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTdf7db6ld7nBU_xq5KYEckuhuJza8Dugn03KTp1C0d6GKep-dAi-ezO2OKTQO_3A9Zo&usqp=CAU");
+  background-size: cover;
+  color: white;
+}
+.miniContainerOfMain6_2_1_3 {
+  background-image: url("https://img.freepik.com/premium-photo/wooden-sawcut-product-stage-podium-with-copyspace-product-presentation-pink-violet-background-gypsophila_652855-900.jpg");
+  background-size: cover;
+}
+.miniContainerOfMain6_2_1_4 {
+  background-image: url("https://media.istockphoto.com/id/1388907403/photo/white-round-podium-with-shadows-of-leaves-and-water-splash-on-light-blue-background-mock-up.jpg?b=1&s=170667a&w=0&k=20&c=80BPXpV4BBEqKXi5BF_jtmYO4j08Z1R_3BQu0ncB-CE=");
+  background-size: cover;
+}
+/* main container 7 */
+
+.mainContanier7 {
+  background-image: url("https://img.myloview.com/stickers/blurred-background-blur-grocery-supermarket-at-shopping-store-banner-blurry-shelf-product-display-and-customer-people-backdrop-wallpaper-copy-space-for-business-concept-700-197399452.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+  padding: 120px;
+}
+.mainContanier7 h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.mainContanier7 p {
+  font-size: 40px;
+}
+.mainContanier7 button {
+  height: 50px;
+  width: 150px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+/* Main container 8 */
+
+.mainContainer8 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  height: 400px;
+}
+.miniContainerOfMain8_1 {
+  background-color: rgb(153, 150, 150);
+  color: white;
+  text-shadow: 5px 5px 4px black;
+}
+.miniContainerOfMain8_1 h1 {
+  font-size: 50px;
+  padding: 50px;
+}
+.miniContainerOfMain8_1 p {
+  font-size: 20px;
+  padding: 50px;
+}
+.miniContainerOfMain8_1 button {
+  height: 40px;
+  width: 130px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+.miniContainerOfMain8_2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSDbPEwXxzgsE1DCjjTCdooqSIZ0kCjqP_H9A7Ssz1sqHBHTGZHRNsfmDtyi1sMlX3a8&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* main container 9 */
+
+.mainContainer9 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  color: white;
+  margin: 180px 120px 9px 120px;
+  background-image: url("https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg");
+}
+.mainContainer9 h1 {
+  font-size: 40px;
+}
+.mainContainer9 p {
+  font-size: 20px;
+}
+.mainContainer9 input {
+  border: none;
+  height: 30px;
+  width: 700px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding: 10px 50px;
+}
+.mainContainer9 button {
+  width: 80px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.miniContainerOfMain9_1 {
+  display: flex;
+}
+
+
+/* footer */
+
+.mainContainerOfFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  padding: 0 100px;
+}
+.miniContainerOfFooter1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.miniContainerOfFooter1 h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(118, 117, 117)(0, 0, 0, 0.784);
+}
+.miniContainerOfFooter1 p{
+  font-size: 15px;
+  margin-bottom:10px;
+  color: rgba(0, 0, 0, 0.784);
+
+}
+.miniContainerOfFooter1_1{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.miniContainerOfFooter2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.miniContainerOfFooter2_1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100px;
+}
+.miniContainerOfFooter2_1 h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(118, 117, 117)(0, 0, 0, 0.784);
+}
+.miniContainerOfFooter2_1 p{
+  font-size: 15px;
+  margin-bottom:10px;
+  color: rgba(0, 0, 0, 0.784);
+}
+.miniContainerOfFooter2_2{
+  margin: 0 0 0 300px;
+}
