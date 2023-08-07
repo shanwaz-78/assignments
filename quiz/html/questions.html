@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questions by Code Inbound</title>
+    <link rel="stylesheet" href="../css/questions.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form action="">
+      <div class="wrapper">
+        <h2>Customer Survey</h2>
+        <div class="question">
+          <p id="questionField"></p>
+          <div id="buttonWrapper">
+            <button><i class="fa-solid fa-star"></i></button>
+            <button><i class="fa-solid fa-star"></i></button>
+            <button><i class="fa-solid fa-star"></i></button>
+            <button><i class="fa-solid fa-star"></i></button>
+            <button><i class="fa-solid fa-star"></i></button>
+          </div>
+        </div>
+        <div class="nextButtonWrapper">
+          <input type="button" value="Previous" id="previous" />
+          <input type="button" value="Skip" id="skip" />
+          <input type="button" value="Next" id="next" />
+        </div>
+        <p class="remain" id="remainQuestion">1</p>
+      </div>
+    </form>
+    <script src="../js/script.js" type="module"></script>
+    <script src="../js/questions.js"></script>
+  </body>
+</html>
