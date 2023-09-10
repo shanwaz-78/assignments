@@ -1,5 +1,5 @@
 const questions = JSON.parse(localStorage.getItem("questions"));
-
+console.log(questions);
 const question_field = document.getElementById("questionField");
 const next_btn = document.getElementById("next");
 const remaining_question = document.getElementById("remainQuestion");

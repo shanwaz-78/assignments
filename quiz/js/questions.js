@@ -16,4 +16,4 @@ const questions = [
   },
 ];
 
-localStorage.setItem('questions', JSON.stringify(questions))
+localStorage.setItem("questions", JSON.stringify(questions));
