@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+}
+
+.repository-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.loader {
+  display: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin-right: 5px;
+}
