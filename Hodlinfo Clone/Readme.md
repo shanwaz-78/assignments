@@ -10,8 +10,6 @@ git clone `git@github.com:shanwaz-78/Hodlinfo-Clone.git`
 ## Open the cloned web to the editor and `navigate` to `backend folder` and then follow these instructions.
 
 ```git
-* cd backend
-
 * npm install
 
 * npm run dev
