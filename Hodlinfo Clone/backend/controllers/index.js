@@ -1,4 +1,4 @@
-import tradingInfoControllers from "./accountInfoRoute.js";
+import tradingInfoControllers from "./accountInfoController.js";
 
 export default {
   tradingInfoControllers,
